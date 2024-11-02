@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(209, 238, 248, 0.551);
+}
+
+.header {
+    background-image: url('/public/hero-bg.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-color: rgb(91, 155, 176);
+} 
+
+.parent-job-cart {
+    justify-content: space-between; 
+    align-items: center;
+    background-color: white;
+    margin: 2rem;
+    padding: 15px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 20px rgba(5, 84, 107, 0.219); 
+    display: flex;
+    height: 120px;
+    margin-left: 5rem;
+    margin-right: 4rem;
+}
+
+.FEATURED ,.NEW {
+    font-size: 8px;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.FEATURED {
+    background-color: rgb(44, 42, 42);
+}
+
+.NEW {
+    background-color: rgb(91, 155, 176);
+}
+
+.logo-of-cart {
+    width: 60px;
+    height: 60px;
+}
+
+.company-name {
+    font-size: 15px;
+    color: rgb(91, 155, 176);
+}
+
+.right-align {
+    display: flex;                
+    justify-content: flex-end;   
+    align-items: center; 
+    gap: 10px;
+}
+
+.right-align > button{
+    background-color: rgba(209, 238, 248, 0.551);
+    gap: 1rem;
+    font-size: 12px;
+    color: rgb(91, 155, 176);
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.right-align > button:hover{
+    background-color: rgb(91, 155, 176);
+    color: white;
+    transition: 0.7s;
+}
